@@ -3,11 +3,11 @@
 #include <stdio.h>
 int main()
 {
-    int week;
+    int peek;
     /* Input week number from user */
     printf("Enter week number (1-7)\n");
-    scanf("%d", &week);
-    switch (week)
+    scanf("%d", &peek);
+    switch (peek)
     {
     case 1:
         printf("Monday\n");
